@@ -1,6 +1,6 @@
 {
   "name": "@acaleph/eslint-config",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "acaleph<2254317552@qq.com> (https://github.com/acaleph-pz)",
