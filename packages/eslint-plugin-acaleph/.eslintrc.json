@@ -1,0 +1,6 @@
+{
+  "extends": "@acaleph",
+  "plugins": [
+    "acaleph"
+  ]
+}

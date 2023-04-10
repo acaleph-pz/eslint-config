@@ -1,0 +1,22 @@
+{
+  "name": "@acaleph/eslint-config",
+  "version": "0.1.14",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "acaleph<2254317552@qq.com> (https://github.com/acaleph-pz)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@acaleph/eslint-config": "*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.29.0",
+    "eslint-plugin-acaleph": "workspace:*",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
+  }
+}

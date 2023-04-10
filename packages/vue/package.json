@@ -1,0 +1,26 @@
+{
+  "name": "@acaleph/eslint-config-vue",
+  "version": "0.1.14",
+  "description": "",
+  "author": "acaleph<2254317552@qq.com> (https://github.com/acaleph-pz/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@acaleph/eslint-config-basic": "workspace:*",
+    "@acaleph/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.8.0",
+    "local-pkg": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
